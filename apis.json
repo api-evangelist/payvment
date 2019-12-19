@@ -1,0 +1,112 @@
+{
+    "name": "Payvment",
+    "description": "Ecwid E-commerce Shopping Cart is Fast and Easy to Use! Set up an Online Store for WordPress, Drupal, Facebook and Much More! Start Selling Now with Ecwid.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/452-payvment.jpg",
+    "tags": [
+        "commerce",
+        "has api",
+        "have api",
+        "no api definition",
+        "profile",
+        "shopping"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/payvment\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Payvment",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/452-payvment.jpg",
+            "humanURL": "http:\/\/open.payvment.com\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/payvment-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Blog",
+            "url": "http:\/\/www.payvment.com\/blog\/"
+        },
+        {
+            "type": "Blog",
+            "url": "https:\/\/www.ecwid.com\/blog"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/www.payvment.com\/blog\/?feed=rss2"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/payvment"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/ecwid"
+        },
+        {
+            "type": "Email",
+            "url": "PR@ecwid.com"
+        },
+        {
+            "type": "Email",
+            "url": "investors@ecwid.com"
+        },
+        {
+            "type": "Email",
+            "url": "join@ecwid.com"
+        },
+        {
+            "type": "Email",
+            "url": "copyright@ecwid.com"
+        },
+        {
+            "type": "Email",
+            "url": "privacy@ecwid.com"
+        },
+        {
+            "type": "Email",
+            "url": "legal@ecwid.com"
+        },
+        {
+            "type": "Email",
+            "url": "info@ecwid.com"
+        },
+        {
+            "type": "Email",
+            "url": "shopapp@ecwid.com"
+        },
+        {
+            "type": "Email",
+            "url": "billing@ecwid.com"
+        },
+        {
+            "type": "Email",
+            "url": "bizdev@ecwid.com"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/payvment"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/Payvment"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/ecwid"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/open.payvment.com\/"
+        }
+    ]
+}
