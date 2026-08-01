@@ -1,7 +1,24 @@
 aid: payvment
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/payvment.png
 name: Payvment
-description: Payvment is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Payvment was a social-commerce startup, backed by 500 Global, that built storefront and shopping-cart
+  experiences for Facebook Pages, letting merchants sell directly inside the social network. The company is
+  no longer operating independently: its assets moved to Ecwid, and the payvment.com domain now
+  301-redirects to www.ecwid.com. No live Payvment developer portal, API documentation, OpenAPI definition,
+  SDK, or other machine-readable API surface could be found during enrichment. This record is retained as a
+  historical portfolio-company profile in the API Evangelist network with no active API surface to score.
 url: https://raw.githubusercontent.com/api-evangelist/payvment/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Social Commerce
+- Ecommerce
+- Payments
+- Facebook Commerce
+- Defunct
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +44,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/payvment-domain-security.yml
 - type: Website
   url: https://payvment.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
