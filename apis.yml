@@ -18,20 +18,22 @@ accessModel:
   public: false
   label: Unknown
   confidence: low
-  source: []
+  source:
+  - url: https://payvment.com
+    status: 301
+    note: declared website redirects to https://www.ecwid.com/payments — a different registrable domain
+      (payvment.com -> ecwid.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)
   generated: '2026-07-22'
   method: derived
-  source:
-  - {url: 'https://payvment.com', status: 301, note: 'declared website redirects to https://www.ecwid.com/payments — a different registrable domain (payvment.com -> ecwid.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/payvment.png
 name: Payvment
-description: >-
-  Payvment was a social-commerce startup, backed by 500 Global, that built storefront and shopping-cart
-  experiences for Facebook Pages, letting merchants sell directly inside the social network. The company is
-  no longer operating independently: its assets moved to Ecwid, and the payvment.com domain now
-  301-redirects to www.ecwid.com. No live Payvment developer portal, API documentation, OpenAPI definition,
-  SDK, or other machine-readable API surface could be found during enrichment. This record is retained as a
-  historical portfolio-company profile in the API Evangelist network with no active API surface to score.
+description: 'Payvment was a social-commerce startup, backed by 500 Global, that built storefront and
+  shopping-cart experiences for Facebook Pages, letting merchants sell directly inside the social network.
+  The company is no longer operating independently: its assets moved to Ecwid, and the payvment.com domain
+  now 301-redirects to www.ecwid.com. No live Payvment developer portal, API documentation, OpenAPI definition,
+  SDK, or other machine-readable API surface could be found during enrichment. This record is retained
+  as a historical portfolio-company profile in the API Evangelist network with no active API surface to
+  score.'
 url: https://raw.githubusercontent.com/api-evangelist/payvment/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -41,7 +43,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-09-15'
 tags:
 - Company
 - Social Commerce
@@ -74,3 +76,4 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-status: defunct
